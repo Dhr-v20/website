@@ -1,0 +1,37 @@
+
+
+.headingtext {
+    margin-left: 400px;
+    margin-top: 170px;
+    width: 680px;
+    color: #000000;
+    font-size: 23px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+.sec2div{
+    margin: 0 auto;
+    text-align: center;
+    width: 774px;
+    border: 1px solid #878383;
+    padding: 30px;
+    justify-content: center;
+}
+
+img.grid {
+    width: 340px;
+    height: 265px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+    max-width: 780px;
+    margin: 0 auto;
+    justify-content: center;
+}

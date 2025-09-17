@@ -1,0 +1,196 @@
+/* General Reset */
+.heading1 {
+  /* height: 600px; */
+  color: white;
+  text-align: center;
+  /* position: relative; */
+}
+header.heading1 {
+    /* height: 700px; */
+    position: relative;
+    top: -270px;
+}
+
+
+
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #00b894;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 45px;
+}
+
+/* Sambutan */
+.sambutan {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sambutan-container {
+  display: flex;
+  gap: 50px;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.sambutan-img {
+  width: 630px;
+  border-radius: 8px;
+}
+
+/* Blogs */
+.blogs {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+  height: 670px;
+  font-size: 35px;
+  background-color: #aaaaaa;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+img.circle {
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  height: 400px;
+}
+
+/* Facultys */
+.facultys {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faculty-slider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.faculty {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 5px;
+  height: 230px;
+}
+
+img.Facuimg {
+    height: 225px;
+    width: 260px;
+}
+/* Gallery */
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+
+.footer-links h4,
+.footer-social h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-social .icons span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}

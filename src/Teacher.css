@@ -1,0 +1,162 @@
+/* ========== BASE STYLES ========== */
+
+
+.headingtext {
+  margin-top: 170px;
+  width: 100%;
+  color: #f9f9f9;
+  font-size: 23px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+}
+
+.sec2div {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  max-width: 774px;
+  border: 1px solid #878383;
+  padding: 30px;
+}
+
+.search-container {
+  text-align: center;
+  background: #faf9f9;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 300px;
+}
+
+.search-box {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  width: 70%;
+  border-radius: 20px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+/* ========== GRID STYLES ========== */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  padding: 23px;
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.grid-item {
+  background-color: #f3f2f2;
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.grid-item h3,
+.grid-item p {
+  margin: 20px 0;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+/* ========== RESPONSIVE MEDIA QUERIES ========== */
+
+@media (max-width: 1024px) {
+  .navbar {
+    gap: 20px;
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .headingtext {
+    font-size: 20px;
+    margin-top: 140px;
+  }
+
+  .divprdiv {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-container {
+    max-width: 90%;
+  }
+
+  .search-box {
+    width: 65%;
+  }
+
+  .headingtext {
+    font-size: 18px;
+  }
+
+  .grid-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .grid-item img {
+    max-width: 60%;
+  }
+
+  .grid-item h3,
+  .grid-item p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navtext a.a {
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+  }
+
+  .headingtext {
+    font-size: 16px;
+    margin-top: 120px;
+  }
+
+  .divprdiv {
+    height: 300px;
+  }
+
+  .search-box {
+    width: 60%;
+  }
+
+  .search-button {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,33 @@
+.homepage {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #001f3f;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Header */
+.heading {
+  height: 600px;
+  background: url("C:\Users\VEER\website\public\99c76c59f98d04c461dcc6d33cdc6ef2a3e695a5.png") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+header.heading {
+    height: 700px;
+    position: relative;
+}

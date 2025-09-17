@@ -1,0 +1,121 @@
+.headingtext {
+    
+    margin-top: 170px;
+    width: 100%;
+    color: #f9f9f9;
+    font-size: 23px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.sec2div{
+    margin: 0 auto;
+    text-align: center;
+    width: 774px;
+    border: 1px solid #878383;
+    padding: 30px;
+}
+
+.form-container {
+            width: 100%;
+            max-width: 586px;
+            margin: 0 auto;
+            padding: 45px;
+margin-right: 160px;
+
+        }
+        
+        .grid-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .form-row {
+            margin-bottom: 15px;
+            color: 939393;
+        }
+        
+        label {
+            display: block;
+            color: #939393;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .phone-prefix {
+            display: flex;
+            align-items: center;
+        }
+        
+        .phone-prefix span {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        
+        .form-title {
+            font-size: 18px;
+            color: #939393;
+            margin-bottom: 20px;
+        }
+.map{
+    margin-left: 446px;
+}
+
+.maingroup {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    width: 201px;
+    margin: 0 auto;
+    border-radius: 20px;
+        margin-top: -30%;
+    position: relative;
+    margin-left: 15%;   
+}
+
+img.gropimg {
+    width: 200px;
+    height: 100px;
+}
+
+img.star {
+    width: 11px;
+    height: 10px;
+    margin: 5px;
+}
