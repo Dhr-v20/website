@@ -28,7 +28,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p>Read More...</p>
             </div>
           </div>
 
@@ -43,7 +43,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p >Read More...</p>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p>Read More...</p>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ function Blog() {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat...
             </p>
-            <a href="#">Read More</a>
+            <p>Read More</p>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p>Read More...</p>
             </div>
           </div>
 
@@ -107,7 +107,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p>Read More...</p>
             </div>
           </div>
 
@@ -122,7 +122,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p>Read More...</p>
             </div>
           </div>
 
@@ -137,7 +137,7 @@ function Blog() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
-              <a href="#">Read More...</a>
+              <p>Read More...</p>
             </div>
           </div>
         </div>
@@ -145,10 +145,10 @@ function Blog() {
         <div className="recent-posts">
           <h2>Recent Post</h2>
           <div className="recent-post-tags">
-            <a href="#">Belajar di rumah</a>
-            <a href="#">Belajar Sekolah Luar di Kelas SMPN 1 Cibadak</a>
-            <a href="#">Kegiatan Belajar mengajar di rumah</a>
-            <a href="#">Kegiatan Belajar Mengajar di Rumah- 2020</a>
+            <p>Belajar di rumah</p>
+            <p>Belajar Sekolah Luar di Kelas SMPN 1 Cibadak</p>
+            <p>Kegiatan Belajar mengajar di rumah</p>
+            <p >Kegiatan Belajar Mengajar di Rumah- 2020</p>
           </div>
         </div>
       </section>
