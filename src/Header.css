@@ -24,10 +24,11 @@
 /* Header */
 .heading {
   height: 600px;
-  background: url('/99c76c59f98d04c461dcc6d33cdc6ef2a3e695a5.jpg') no-repeat center center/cover;
+  background: url("/public/99c76c59f98d04c461dcc6d33cdc6ef2a3e695a5.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
   position: relative;
+  top: 0px;
 }
 header.heading {
     height: 700px;
